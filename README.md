@@ -126,22 +126,6 @@ Advanced **DAX Measures** were written to power the dynamic cards, donor charts,
   ```
 
 ---
-
-## 🎨 Professional Canvas Layout & PowerPoint Template
-
-To achieve a modern, containerized dark-theme look, a bespoke layout was drafted in **Microsoft PowerPoint** and imported as an SVG (Scalable Vector Graphic) background. This technique prevents layout shift, keeps visuals light, and ensures standard pixel-perfect alignment.
-
-* **Slide/Canvas Dimensions:** Full HD 16:9 (`1920 x 1080` pixels)
-* **Background Hex Color:** Dark Navy/Grey (`#0F1015` or similar)
-* **Visual Container Hex Color:** Soft Dark (`#161922` or similar)
-* **Border Highlights:** Low-contrast borders (`#2C303E` or similar)
-* **Process:**
-  1. Shapes with rounded corners were drawn in PowerPoint to create container cards for KPIs and visual graphs.
-  2. The layout was exported: `File` $\rightarrow$ `Save As` $\rightarrow$ Select **Scalable Vector Graphics (*.svg)** format.
-  3. In Power BI, under the **Formatting Pane** $\rightarrow$ `Canvas Background` $\rightarrow$ Added the exported SVG background and set `Image Fit` to **Fill** and `Transparency` to **0%**.
-
----
-
 ## 🖥️ Dashboard Architecture & Visual Design
 
 The workspace is structured across two high-density interactive pages:
@@ -195,11 +179,9 @@ The dashboard implements native Power BI features to optimize self-service analy
 ├── Bank_Loan_Analytics_Dashboard.pbix <- Power BI file containing reports, DAX, and modeling
 ├── Dataset/
 │   └── Financial_Loan_Data.xlsx   <- Raw and cleaned financial data
-└── Templates/
-    ├── Dashboard_Layout.svg       <- Canvas background for Summary page
-    └── Overview_Layout.svg        <- Canvas background for Overview page
+
 ```
 
 ---
 
-*Project built by **[Your Name]** as part of a Finance Domain Analytics Portfolio. For any queries, feel free to reach out via GitHub or LinkedIn!*
+*Project built by **Billa Mangal Mondal** as part of a Finance Domain Analytics Portfolio. For any queries, feel free to reach out via GitHub or LinkedIn!*
